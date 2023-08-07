@@ -1,0 +1,25 @@
+.CardsBelow{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 20rem;
+    height: 20rem;
+    
+}
+@media screen and (max-width: 578px) {
+    .CardsBelow{
+        flex-wrap: wrap;
+        height: 17rem;
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .CardsBelow{
+        height: 17rem;
+    }
+
+}

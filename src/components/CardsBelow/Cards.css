@@ -1,0 +1,107 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1.2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    max-height: 20rem;
+    /* height: 18rem; */
+    overflow: hidden;
+    width: auto;
+    max-width: 31%;
+  }
+.card:hover{
+    transform:scale(1.05) ;
+
+}
+.card img{
+    height: 80%;
+    width: 100%;
+    margin-top: -73px;
+    object-fit: cover;
+    position: relative;
+}
+.cardText{
+    width: auto;
+    position:relative;
+    /* margin-top: -30px; */
+    top: -32px;
+    border-radius: 0 0 1.2rem 1.2rem;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: white;
+    padding: 1rem 2rem 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap');
+.title{
+    
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.subtitle{
+    margin: 0;
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 1100px) {
+    .title{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    .subtitle{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        font-weight: 00;
+    }
+    .cardText{
+        padding: 0.7rem 1.3rem 1.1rem;
+    }
+}
+@media screen and (max-width: 868px) {
+
+    .title{
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    .subtitle{
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+        font-weight: 00;
+    }
+    .cardText{
+        padding: 0.5rem 1.1rem 0.9rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
+    .subtitle{ 
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+        font-weight: 00;
+    }
+    .cardText{
+        top:0;
+        padding: 0.3rem 0.9rem 0.7rem;
+    }
+    
+}

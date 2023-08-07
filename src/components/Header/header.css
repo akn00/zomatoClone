@@ -1,0 +1,122 @@
+
+.headerMain{
+    position: sticky;
+    display: flex;
+    width: 100%;
+    min-height: 420px;
+    background-image: url("../../assets/resize-16907871561398250726bgimagezm.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+
+}
+.zmLogo{
+    height:60px ;
+    width: 300px;
+    /* margin-top: 72px; */
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap');
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.searchContainer{
+    display: flex;
+    width: 777px;
+    height: 54px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.locationInput{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    width:  calc(29%);
+    height: 100%;
+    border: transparent;
+}
+
+.searchInput{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    width: calc(69%);
+    height: 100%;
+    border: transparent;
+}
+.locationInputBox,
+.searchInputBox{
+    
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    font-size: medium;
+}
+.searchInputBox {
+    padding-left: 20px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' fill='%23808080'%3E%3C/path%3E%3C/svg%3E") no-repeat 0px center;
+}
+
+.locationInputBox:focus,
+.searchInputBox:focus{
+   outline: none;
+}
+.pipe{
+
+    margin-left:10px ;
+    margin-right: 2px;
+}
+@media screen and (max-width: 832px) {
+    .headerMain{
+        background-position: top;
+        background-size: auto,420px;
+    }
+    .searchContainer{
+        width: 740px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .searchContainer{
+        width: 650px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .searchContainer{
+        width: 550px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .searchContainer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 380px;
+        height: auto;
+        flex-direction: column;
+    }
+    .pipe{
+        display: none;
+    }
+    .locationInputBox,
+    .searchInputBox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    margin-right: 0px;
+    }
+}

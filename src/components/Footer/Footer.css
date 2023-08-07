@@ -1,0 +1,207 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 1100px;
+    margin: auto;
+    /* margin-left: 10px; */
+    padding-top: 4.8rem;
+    padding-bottom: 2.2rem;
+}
+.adj{
+    display: flex;
+    margin-left: 10px;
+}
+.logoFooter{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.logoFooter img{
+    width: 12.5%;
+    height: 75%;
+}
+
+.buttonHeaderTop{
+    display:flex;
+    justify-content: right;
+}
+.fButton{
+    display: flex;
+    justify-content: center;
+    height: 38px;
+    min-width: 7rem;
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.Space{
+    min-width: 26px;
+}
+.footerData{
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.exp{
+    width:20%;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 20px;
+}
+.exp h5{
+    font-weight: 300;
+}
+.exp h3{
+    font-weight: 500;
+}
+@media screen and (max-width: 578px) {
+    .exp h5{
+        font-size: smaller;
+        font-weight: 300;
+    }
+    .exp h3{
+        font-size: smaller;
+        font-weight: 500;
+    }
+    .exp{
+        width:auto;
+        margin-right: 3px;
+    }
+    .adj{
+        width: auto;
+    }
+    .Footer{
+        width: auto;
+    }
+    .logoFooter img{
+        width: 40%;
+        height: 40%;
+    }
+    .fButton{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        /* min-width: 7rem; */
+        width: auto;
+        max-width: 100%;
+        cursor: pointer;
+        position: relative;
+        padding: 0.3rem 0.7rem;
+        border: 1px solid rgb(181, 181, 181);
+        border-radius: 0.6rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .Space{
+        min-width: 15px;
+    }
+}
+
+@media screen and (min-width: 579px) and (max-width: 768px) {
+    .exp h5 {
+        font-size: smaller;
+        font-weight: 300;
+    }
+    .exp h3 {
+        font-size: smaller;
+        font-weight: 500;
+    }
+    .exp {
+        width: auto;
+        margin-right: 3px;
+    }
+    .adj {
+        width: auto;
+    }
+    .Footer {
+        width: auto;
+    }
+    .logoFooter img {
+        width: 40%;
+        height: 40%;
+    }
+    .fButton {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        /* min-width: 7rem; */
+        width: auto;
+        max-width: 100%;
+        cursor: pointer;
+        position: relative;
+        padding: 0.3rem 0.7rem;
+        border: 1px solid rgb(181, 181, 181);
+        border-radius: 0.6rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .Space {
+        min-width: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .exp h5 {
+        /* Custom styles for h5 in this range */
+        font-size: smaller;
+        font-weight: 300;
+    }
+
+    .exp h3 {
+        /* Custom styles for h3 in this range */
+        font-size: smaller;
+        font-weight: 500;
+    }
+
+    /* Custom styles for other elements in this range */
+    .exp {
+        width: auto;
+        margin-right: 15px;
+    }
+
+    .adj {
+        width: auto;
+    }
+
+    .Footer {
+        width: auto;
+    }
+
+    .logoFooter img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .fButton {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        /* min-width: 7rem; */
+        width: auto;
+        max-width: 100%;
+        cursor: pointer;
+        position: relative;
+        padding: 0.3rem 0.7rem;
+        border: 1px solid rgb(181, 181, 181);
+        border-radius: 0.6rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .Space {
+        min-width: 15px;
+    }
+
+}
